@@ -1,0 +1,76 @@
+body{
+	font-family: 'Exo', sans-serif;
+	font-size: 150%;
+	box-sizing: border-box;
+	margin: 0;
+	margin: auto;
+}
+.amarillo{
+	background-color: #f7ed2c;
+}
+.rojo{
+	background-color: #ef4a70;
+}
+
+.contenedor1 div{
+	padding: 10px 0 50px 10px;
+	display: block;
+}
+
+.contenedor1 .rojo{
+	border: #000 solid 2px;
+	padding-left: 8px; 
+}
+
+.contenedor2 div{
+	margin: 10px;
+	padding: 10px 0 50px 10px;
+	width: 220px;
+	display: block;
+}
+
+.contenedor3 {
+	border: 20px solid #fff;
+}
+.contenedor3 div{
+	margin: 10px;
+	padding: 10px;
+	display: inline;
+}
+
+.contenedor4 div{
+	margin: 10px;
+	padding: 10px;
+	width: 220px;
+	display: inline-block;
+}
+
+.contenedor5{
+
+}
+.cuadrado{
+	width: 100px;
+	height: 100px;
+	background-color: #f7d354;
+	padding: 10px;
+	margin: 10px;
+}
+.caja{
+	width: 450px;
+	background-color: #f77254;
+	padding: 10px;
+	margin: 10px;
+	overflow: auto;
+}
+.caja div{
+	display: inline-block;
+	float: right;
+}
+
+#pos3,#pos4,#pos5{
+	float: left;
+}
+
+#pos5{
+	clear: left;
+}
